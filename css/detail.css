@@ -341,6 +341,7 @@ img {
     padding-bottom: 0;
     /* max-height: 20vh; */
     position: relative;
+    top: -3em;
   }
   .titleWrap {
     padding-top: 4em;
