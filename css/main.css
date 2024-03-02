@@ -86,6 +86,57 @@ img {
   width: 100%;
 }
 
+/* footer start */
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  padding-top: 20px;
+  padding: 0 3em;
+  position: relative;
+}
+footer .f-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+footer ul {
+  border-top: 0.5px solid #8e8e8e;
+  padding-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+footer ul li {
+  margin: 0 9px 24px;
+  font-size: 14px;
+}
+footer .f-container ul li a {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+footer .copy {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  color: #8e8e8e;
+}
+
+footer .copy select {
+  border: 0;
+  background-color: #fafafa;
+  color: #8e8e8e;
+  margin-right: 10px;
+}
+footer .copy p {
+  font-size: 14px;
+  padding-top: 2px;
+  text-align: center;
+}
+/* footer end */
+
 @media screen and (max-width: 960px) {
   .header {
     padding: 0 1.5em;
@@ -110,6 +161,18 @@ img {
     width: 100%;
     padding: 0 1.5em;
     color: white;
+  }
+
+  footer {
+    padding: 0 1.5em;
+  }
+
+  footer ul {
+    padding-left: 0;
+  }
+  footer ul li {
+    margin: 0 0.5em;
+    font-size: 14px;
   }
 }
 
@@ -138,6 +201,28 @@ img {
     width: 100%;
     padding: 0 1em;
     color: white;
+  }
+
+  footer {
+    padding: 0 1em;
+  }
+
+  footer ul {
+    /* width: 61vw; */
+    padding: 1em 0;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    justify-content: start;
+  }
+
+  footer ul li {
+    margin: 0 0.2em;
+    font-size: 12px;
+    word-break: keep-all;
+  }
+
+  footer .copy p {
+    font-size: 12px;
   }
 }
 
@@ -192,56 +277,6 @@ img {
   .header .container {
     width: 100%;
   }
-}
-
-footer {
-  width: 100%;
-  height: 200px;
-  background-color: black;
-  padding-top: 20px;
-  padding: 0 3em;
-  position: relative;
-}
-.in_footer {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-footer ul {
-  border-top: 0.5px solid #8e8e8e;
-  padding-top: 40px;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-footer ul li {
-  margin: 0 9px 24px;
-  font-size: 14px;
-}
-footer .container ul li a {
-  font-size: 14px;
-  color: #8e8e8e;
-}
-footer .copy {
-  display: flex;
-  justify-content: center;
-}
-footer .copy {
-  margin-right: 10px;
-  color: #8e8e8e;
-}
-footer .copy select {
-  border: 0;
-  background-color: #fafafa;
-  color: #8e8e8e;
-  margin-right: 10px;
-}
-footer .copy p {
-  font-size: 14px;
-  padding-top: 2px;
-  text-align: center;
 }
 
 .top-menu {
