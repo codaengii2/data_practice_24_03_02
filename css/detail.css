@@ -333,7 +333,7 @@ img {
 
   /* 영화 포스터 */
   .posterWrap {
-    height: 30vh;
+    /* height: 30vh; */
     max-height: 180px;
   }
 }
