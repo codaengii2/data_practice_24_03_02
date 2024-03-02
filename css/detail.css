@@ -351,7 +351,8 @@ img {
     top: -3em;
   }
   .titleWrap {
-    padding-top: 4em;
+    padding-top: 8em;
+    width: 42%;
   }
 
   /* 영화 포스터 */
@@ -359,5 +360,6 @@ img {
     /* width: 20%; */
     margin-right: 0;
     /* max-height: 165px; */
+    max-width: 51vw;
   }
 }
