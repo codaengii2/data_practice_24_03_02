@@ -297,7 +297,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 20%;
     align-items: baseline;
     padding-top: 6em;
   }
