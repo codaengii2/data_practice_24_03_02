@@ -331,10 +331,10 @@ img {
   }
 
   /* 영화 포스터 */
-  .posterWrap {
-    /* height: 30vh; */
-    max-height: 180px;
-  }
+  /* .posterWrap { */
+  /* height: 30vh; */
+  /* max-height: 180px; */
+  /* } */
 }
 @media screen and (max-width: 290px) {
   .imgBottom {
@@ -350,6 +350,6 @@ img {
   .posterWrap {
     /* width: 20%; */
     margin-right: 0;
-    max-height: 165px;
+    /* max-height: 165px; */
   }
 }
