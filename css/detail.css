@@ -322,7 +322,7 @@ img {
   .imgBottom {
     padding-bottom: 0;
     /* max-height: 20vh; */
-    position: relative;
+    /* position: relative; */
   }
   .titleWrap {
     display: flex;
@@ -330,7 +330,7 @@ img {
     justify-content: flex-end;
     width: 50%;
     align-items: baseline;
-    padding-top: 5em;
+    padding-top: 8em;
   }
 
   /* 줄거리 wrap */
