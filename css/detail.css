@@ -298,14 +298,14 @@ img {
     padding-bottom: 0;
     /* max-height: 20vh; */
     position: relative;
-    top: -3em;
+    top: -5em;
   }
   .titleWrap {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: baseline;
-    padding-top: 6em;
+    padding-top: 8em;
   }
 
   /* 줄거리 문단 */
@@ -330,7 +330,6 @@ img {
     justify-content: flex-end;
     width: 50%;
     align-items: baseline;
-    padding-top: 8em;
   }
 
   /* 줄거리 wrap */
