@@ -275,7 +275,7 @@ img {
 
   #detail-description > p {
     /* width: 60%; */
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4em;
     letter-spacing: -0.04em;
   }
@@ -321,7 +321,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 20%;
+    width: 50%;
     align-items: baseline;
     padding-top: 5em;
   }
@@ -344,11 +344,6 @@ img {
     position: relative;
   }
   .titleWrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 30%;
-    align-items: baseline;
     padding-top: 4em;
   }
 
