@@ -56,7 +56,12 @@ const detailRender = async (movieId) => {
             <div class="imgBottom">
               <div class="titleWrap">
                 <h1 id="movie-title">${movies.title}</h1>
-                <p id="movie-year">${movies.release_date}</p>
+                <p id="movie-year">${movies.original_title}, ${
+      movies.release_date
+    }</p>
+                <p id="movie-g">${movies.genres.map((gen) => {
+                  return gen.name;
+                })}</p>
                 <p id="movie-v"><i class="fa-solid fa-star"></i>${movies.vote_average.toFixed(
                   1
                 )}</p>

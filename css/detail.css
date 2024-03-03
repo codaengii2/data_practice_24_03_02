@@ -130,6 +130,12 @@ img {
   margin-bottom: 0.5em;
 }
 
+#movie-g {
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 0.5em;
+}
+
 /* 영화 평점 */
 #movie-v {
   display: flex;
@@ -181,6 +187,10 @@ img {
   }
   /* 영화 제작년도 */
   #movie-year {
+    font-size: 14px;
+  }
+  /* 영화 장르 */
+  #movie-g {
     font-size: 14px;
   }
   /* 영화 평점 */
@@ -260,6 +270,11 @@ img {
   }
   /* 영화 평점 */
   #movie-v {
+    font-size: 12px;
+    margin-bottom: 0.2em;
+  }
+  /* 영화 장르 */
+  #movie-g {
     font-size: 12px;
   }
   .fa-star {
